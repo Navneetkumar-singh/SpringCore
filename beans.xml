@@ -13,4 +13,12 @@
 		<property name="name" value="Navneet"></property>
 		<property name="rollno" value="23"></property>
 	</bean>
+	
+ <bean id="student2bean" class="com.springpractice.springcore.student2">
+ <!-- the bean is created and initialized by constructors -->
+ <constructor-arg name="age" value="23"></constructor-arg>
+ <constructor-arg name="rollno" value="2" ></constructor-arg>
+ <constructor-arg name="name" value="navneet"></constructor-arg>
+ </bean>
+ 
 </beans>
